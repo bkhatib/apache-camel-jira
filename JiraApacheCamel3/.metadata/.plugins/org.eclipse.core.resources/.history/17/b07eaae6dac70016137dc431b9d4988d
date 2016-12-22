@@ -1,0 +1,27 @@
+package org.jira;
+import org.apache.camel.Exchange;
+import org.apache.camel.Message;
+import org.apache.camel.Processor;
+import org.apache.camel.component.jira.JIRAType;
+import org.slf4j.Logger;
+
+import com.sun.xml.txw2.Document;
+
+import org.apache.camel.Exchange;
+import org.apache.camel.Processor;
+
+public class MyLogProcessor implements Processor{
+	private static final Logger LOGGER = Logger.getLogger( ClassName.class.getName() );
+	public void process(Exchange exchange) throws Exception {
+		LOGGER.log( Level.FINE, "processing {0} entries in loop", list.size() );
+		String projectKey = exchange.getIn().getHeader("ProjectKey", String.class);
+        Long issueTypeId = exchange.getIn().getHeader("IssueTypeId", Long.class);
+        String issueSummary = exchange.getIn().getHeader("IssueSummary", String.class);
+		System.out.println("processing "+projectKey+issueTypeId+issueSummary);
+	}
+
+
+}
+	
+	
+	

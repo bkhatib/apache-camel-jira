@@ -1,0 +1,21 @@
+package org.jira;
+import org.apache.camel.builder.RouteBuilder;
+
+public class MyRouteBuilder extends RouteBuilder{
+
+	@Override
+	public void configure() throws Exception {
+		  private static final String URL = "https://somerepo.atlassian.net";
+		    private static final String USERNAME = "someguy";
+		    private static final String PASSWORD = "xU3xjhay9yjEaZq";
+		    private static final String JIRA_CREDENTIALS = URL + "&username=" + USERNAME + "&password=" + PASSWORD;
+		  
+		String serverURL = "https://issues.apache.org";
+	from("jira://issues.apache.org/jira/browse/CAMEL-10597")
+	//from("file:D:/camel/input?noop=true")
+	//.process(new MyLogProcessor())
+	//.bean(new MyTransformer(),"transformContent")
+	.to("file:D:/camel/output");	
+	}
+
+}

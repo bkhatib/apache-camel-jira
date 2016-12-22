@@ -1,0 +1,12 @@
+
+public class MyTransformer {
+	
+	public String TransformerContent(String body){
+		System.out.println("transformer");
+		String upperCaseContent = body.toUpperCase();
+		return upperCaseContent;
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package org.jira;
+
+import org.apache.camel.component.jira.JIRAType;
+
+public class MyTransformer {
+	public JIRAType transformContent(JIRAType body)
+	{
+		System.out.println("invoking the transformContent method");
+		JIRAType jira=(com.atlassian.jira.rest.client.domain.Comment)body.NEWCOMMENT;
+		
+		//System.out.println(object);
+		return jira;
+	}
+
+}

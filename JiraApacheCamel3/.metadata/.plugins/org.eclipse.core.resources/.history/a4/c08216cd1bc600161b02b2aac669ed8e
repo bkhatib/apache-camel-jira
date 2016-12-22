@@ -1,0 +1,13 @@
+package org.jira;
+
+public class MyTransformer {
+	public String transformContent(String body)
+	{
+		System.out.println("invoking the transformContent method");
+		String upperCaseContent=null;
+		System.out.println(body.toUpperCase());
+		//System.out.println(object);
+		return upperCaseContent;
+	}
+
+}

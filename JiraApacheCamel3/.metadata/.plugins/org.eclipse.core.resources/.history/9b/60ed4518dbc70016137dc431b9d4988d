@@ -1,0 +1,35 @@
+package org.jira;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import org.apache.camel.CamelContext;
+import org.apache.camel.component.jira.JIRAType;
+import org.apache.camel.impl.DefaultCamelContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class TestMain 
+{
+	private static final Logger LOGGER = Logger.getLogger( TestMain.class.getName() );
+    public static void main( String[] args )
+    {
+    	System.out.println(TestMain.class.getName().getClass().getResource("logging.properties"));
+       MyRouteBuilder routeBuilder=new MyRouteBuilder();
+       CamelContext ctx =new DefaultCamelContext();
+      // ((CamelContext) ctx.getManagedCamelContext()).getTypeConverter().convertTo(JIRAType.class, "remaining");
+       try {
+    		LOGGER.log( Level.FINE, "|||||||||||||||||||||||| {0} entries in loop", routeBuilder.exceptionMessage() );
+		ctx.addRoutes(routeBuilder);
+		ctx.start();
+		
+		Thread.sleep(5*60*1000);
+		ctx.stop();
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+       
+    }
+}
+

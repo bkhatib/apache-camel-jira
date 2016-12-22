@@ -1,0 +1,20 @@
+package org.jira;
+import org.apache.camel.Exchange;
+import org.apache.camel.Processor;
+
+
+import com.atlassian.httpclient.api.Message;
+import org.apache.camel.component.jira.JIRAType;
+
+public class MyLogProcessor implements Processor{
+
+	public void process(Exchange exchange) throws Exception {
+		
+		Message message = (Message) exchange.getIn().getBody();
+		System.out.println("processing "+message);
+	}
+
+}
+	
+	
+	

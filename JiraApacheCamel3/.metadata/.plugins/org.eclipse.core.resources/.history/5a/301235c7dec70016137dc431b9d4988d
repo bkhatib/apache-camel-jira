@@ -1,0 +1,32 @@
+package org.jira;
+import org.apache.camel.CamelContext;
+import org.apache.camel.component.jira.JIRAType;
+import org.apache.camel.impl.DefaultCamelContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class TestMain 
+{
+    public static void main( String[] args )
+    {
+       MyRouteBuilder routeBuilder=new MyRouteBuilder();
+       System.out.println(routeBuilder.toString());
+       CamelContext ctx =new DefaultCamelContext();
+      // ((CamelContext) ctx.getManagedCamelContext()).getTypeConverter().convertTo(JIRAType.class, "remaining");
+       try {
+    	   
+		ctx.addRoutes(routeBuilder);
+		System.out.println("||||||||||||||||||||||||||||||"+routeBuilder.body());
+		ctx.start();
+		
+		Thread.sleep(1*60*500);
+		ctx.stop();
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+       
+    }
+}
+

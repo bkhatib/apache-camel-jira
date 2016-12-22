@@ -1,0 +1,37 @@
+package org.jira;
+import org.apache.camel.builder.RouteBuilder;
+
+public class MyRouteBuilder extends RouteBuilder{
+
+	
+    return new RouteBuilder() {
+    	 String URL = "https://somerepo.atlassian.net";
+		   String USERNAME = "someguy";
+		  String PASSWORD = "xU3xjhay9yjEaZq";
+			String serverURL = "https://issues.apache.org";
+		   String JIRA_CREDENTIALS = serverURL + "&username=" + USERNAME + "&password=" + PASSWORD;
+		 
+        @Override
+        public void configure() throws Exception {
+            from("jira:jira://pullRequestComment?serverUrl="+JIRA_CREDENTIALS+"&ProjectKey=CAMEL-10597&IssueTypeId=1&IssueSummary=Swagger prints child object types as string parameters rather than refs")
+                   // .process(new NewCommentProcessor())
+                    .to("mock:result");
+        }
+    };
+
+/*	@Override
+	public void configure() throws Exception {
+		 String URL = "https://somerepo.atlassian.net";
+		   String USERNAME = "someguy";
+		  String PASSWORD = "xU3xjhay9yjEaZq";
+			String serverURL = "https://issues.apache.org";
+		   String JIRA_CREDENTIALS = serverURL + "&username=" + USERNAME + "&password=" + PASSWORD;
+		  
+	
+	from("jira://pullRequestComment?serverUrl="+JIRA_CREDENTIALS+"&ProjectKey=CAMEL-10597&IssueTypeId=1&IssueSummary=Swagger prints child object types as string parameters rather than refs")
+	//from("file:D:/camel/input?noop=true")
+	//.process(new MyLogProcessor())
+	//.bean(new MyTransformer(),"transformContent")
+	.to("mock:result");	
+	}*/
+

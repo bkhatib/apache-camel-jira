@@ -1,0 +1,31 @@
+package org.jira;
+import org.apache.camel.CamelContext;
+import org.apache.camel.builder.RouteBuilder;
+import org.apache.camel.component.jira.JIRAType;
+import org.apache.camel.impl.DefaultCamelContext;
+import org.apache.camel.model.rest.RestDefinition;
+
+/**
+ * Hello world!
+ *
+ */
+public class TestMain 
+{
+    public static void main( String[] args ) throws Exception
+    {
+       RouteBuilder routeBuilder= new RouteBuilder().createRouteBuilder();
+       CamelContext ctx =new DefaultCamelContext();
+      // ((CamelContext) ctx.getManagedCamelContext()).getTypeConverter().convertTo(JIRAType.class, "remaining");
+       try {
+    	   
+		ctx.addRoutes(routeBuilder);
+		ctx.start();
+		Thread.sleep(2*60*1000);
+		ctx.stop();
+	} catch (Exception e) {
+		e.printStackTrace();
+	}
+       
+    }
+}
+

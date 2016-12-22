@@ -1,0 +1,109 @@
+package org.jira;
+import java.util.Map;
+
+import org.apache.camel.CamelContext;
+import org.apache.camel.Consumer;
+import org.apache.camel.Endpoint;
+import org.apache.camel.EndpointConfiguration;
+import org.apache.camel.Exchange;
+import org.apache.camel.ExchangePattern;
+import org.apache.camel.PollingConsumer;
+import org.apache.camel.Processor;
+import org.apache.camel.Producer;
+import org.apache.camel.builder.RouteBuilder;
+
+public class MyRouteBuilder extends RouteBuilder{
+
+	@Override
+	public void configure() throws Exception {
+		Endpoint end = new Endpoint() {
+			
+			public void stop() throws Exception {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			public void start() throws Exception {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			public boolean isSingleton() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			public void setCamelContext(CamelContext context) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			public boolean isLenientProperties() {
+				// TODO Auto-generated method stub
+				return false;
+			}
+			
+			public String getEndpointUri() {
+				// TODO Auto-generated method stub
+				String uri = "jira://pullRequestComment?ProjectKey=CAMEL-10597&IssueTypeId=1&IssueSummary=Swagger prints child object types as string parameters rather than refs";
+				return uri;
+			}
+			
+			public String getEndpointKey() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public EndpointConfiguration getEndpointConfiguration() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public CamelContext getCamelContext() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public Producer createProducer() throws Exception {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public PollingConsumer createPollingConsumer() throws Exception {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public Exchange createExchange(Exchange exchange) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public Exchange createExchange(ExchangePattern pattern) {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public Exchange createExchange() {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public Consumer createConsumer(Processor processor) throws Exception {
+				// TODO Auto-generated method stub
+				return null;
+			}
+			
+			public void configureProperties(Map<String, Object> options) {
+				// TODO Auto-generated method stub
+				
+			}
+		};
+		
+	from(end.getEndpointUri())
+	.process(new MyLogProcessor())
+	.bean(new MyTransformer(),"transformContent")
+	.to("file:D:/camel/output");	
+	}
+
+}

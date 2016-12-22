@@ -1,0 +1,25 @@
+package org.jira;
+import org.apache.camel.builder.RouteBuilder;
+import org.apache.camel.model.SetBodyDefinition;
+import org.apache.log4j.net.SyslogAppender;
+import org.omg.CORBA.MARSHAL;
+
+public class RouteBuilderConfig extends RouteBuilder{
+
+@Override
+	public void configure() throws Exception {
+	
+	   String USERNAME = "username";
+	   String PASSWORD = "password";
+	   String serverURL = "https://issues.apache.org";
+	   String JIRA_CREDENTIALS = serverURL + "&username=" + USERNAME + "&password=" + PASSWORD;
+		  
+	
+	from("jira://pullRequestComment?serverUrl="+JIRA_CREDENTIALS+"&ProjectKey=CAMEL-10597&IssueTypeId=1&IssueSummary=Swagger prints child object types as string parameters rather than refs")
+	//from("jira://pullRequestComment?serverUrl="+serverURL+"?ProjectKey=CAMEL-10597&IssueTypeId=1&IssueSummary=Swagger prints child object types as string parameters rather than refs")
+	//from("file:D:/camel/input?noop=true")
+	.process(new LogProcessor())
+	.bean(new Transformer(),"transformContent")
+	.to("mock:result");	
+	}
+}

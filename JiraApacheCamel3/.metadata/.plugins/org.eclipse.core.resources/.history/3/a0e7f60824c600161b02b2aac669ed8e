@@ -1,0 +1,24 @@
+package org.jira;
+import org.apache.camel.Exchange;
+import org.apache.camel.Message;
+import org.apache.camel.Processor;
+import org.apache.camel.component.jira.JIRAType;
+
+import com.sun.xml.txw2.Document;
+
+import org.apache.camel.Exchange;
+import org.apache.camel.Processor;
+
+public class MyLogProcessor implements Processor{
+
+	public void process(Exchange exchange) throws Exception {
+		System.out.println("****************************processor**************************************");
+		Message message = (Message) exchange.getIn();
+		JIRAType jira  = message.getBody(JIRAType.class);
+		System.out.println("processing "+jira);
+	}
+
+}
+	
+	
+	

@@ -1,0 +1,15 @@
+package org.jira;
+import org.apache.camel.builder.RouteBuilder;
+
+public class MyRouteBuilder extends RouteBuilder{
+
+	@Override
+	public void configure() throws Exception {
+		
+	from("jira://")
+	.process(new MyLogProcessor())
+	.bean(new MyTransformer(),"transformContent")
+	.to("file:D:/camel/output");	
+	}
+
+}

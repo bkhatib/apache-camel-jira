@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-core-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/slf4j/slf4j-1.7.22/slf4j-log4j12-1.7.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/slf4j/slf4j-1.7.22/slf4j-api-1.7.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ahc-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ahc-ws-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-amqp-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-apns-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-asterisk-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-atmos-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-atmosphere-websocket-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-atom-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-avro-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-aws-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-bam-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-barcode-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-base64-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-beanio-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-beanstalk-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-bean-validator-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-bindy-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-blueprint-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-boon-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-box-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-braintree-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-cache-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-cassandraql-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-castor-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-catalog-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-catalog-lucene-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-cdi-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-chronicle-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-chunk-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-cmis-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-cm-sms-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-cometd-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-commands-core-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-commands-jolokia-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-commands-spring-boot-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-consul-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-context-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-core-2.18.1-tests.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-core-osgi-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-couchdb-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-crypto-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-csv-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-cxf-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-cxf-transport-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-disruptor-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-dns-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-docker-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-dozer-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-dropbox-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-eclipse-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ehcache-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ejb-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-elasticsearch-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-elsql-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-etcd-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-eventadmin-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-exec-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-facebook-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-flatpack-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-flink-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-fop-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-freemarker-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ftp-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ganglia-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-geocoder-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-git-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-github-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-google-calendar-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-google-drive-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-google-mail-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-gora-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-groovy-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-gson-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-guava-eventbus-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-guice-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-hawtdb-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-hazelcast-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-hbase-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-hdfs-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-hdfs2-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-hessian-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-hipchat-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-hl7-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-http-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-http4-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-http-common-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ibatis-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ical-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ignite-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-infinispan-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-influxdb-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-irc-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ironmq-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jackson-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jacksonxml-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jasypt-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-javaspace-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jaxb-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jbpm-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jcache-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jclouds-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jcr-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jdbc-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jetty-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jetty9-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jetty-common-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jgroups-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jibx-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jing-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jira-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jms-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jmx-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-johnzon-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jolt-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-josql-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jpa-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jsch-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jsonpath-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jt400-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-juel-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-jxpath-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-kafka-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-karaf-commands-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-kestrel-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-krati-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-kubernetes-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-kura-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ldap-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-leveldb-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-linkedin-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-linkedin-api-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-lucene-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-lumberjack-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-lzf-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mail-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-metrics-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mina-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mina2-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mllp-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mongodb-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mongodb-gridfs-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mqtt-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-msv-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mustache-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mvel-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-mybatis-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-nagios-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-netty-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-netty4-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-netty4-http-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-netty-http-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ognl-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-olingo2-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-olingo2-api-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-openshift-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-optaplanner-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-paho-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-paxlogging-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-pdf-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-pgevent-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-printer-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-protobuf-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-quartz-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-quartz2-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-quickfix-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-rabbitmq-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-restlet-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ribbon-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-rmi-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-routebox-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-rss-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ruby-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-rx-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-salesforce-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-sap-netweaver-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-saxon-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-scala-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-schematron-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-scr-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-script-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-servicenow-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-servlet-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-servletlistener-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-shiro-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-sip-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-sjms-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-slack-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-smpp-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-snakeyaml-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-snmp-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-soap-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-solr-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spark-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spark-rest-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-splunk-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-batch-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-boot-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-boot-starter-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-dm-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-integration-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-javaconfig-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-ldap-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-redis-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-security-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-spring-ws-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-sql-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-ssh-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-stax-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-stomp-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-stream-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-stringtemplate-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-swagger-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-swagger-java-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-syslog-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-tagsoup-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-tarfile-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-telegram-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-test-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-test-blueprint-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-test-cdi-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-test-karaf-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-testng-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-test-spring-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-twitter-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-undertow-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-univocity-parsers-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-urlrewrite-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-velocity-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-vertx-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-weather-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-websocket-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-xmlbeans-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-xmljson-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-xmlrpc-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-xmlsecurity-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-xmpp-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-xstream-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-yammer-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-zipfile-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-zipkin-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-zipkin-starter-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/apache camel/apache-camel-2.18.1/lib/camel-zookeeper-2.18.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/jira/jira-rest-java-client-core-2.0.0-m19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/jira rest client/jira-rest-java-client-4.0.0/jira-rest-java-client-api-4.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/jira rest client/jira-rest-java-client-4.0.0/jira-rest-java-client-core-4.0.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
